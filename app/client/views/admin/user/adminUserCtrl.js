@@ -10,7 +10,7 @@ angular.module('reg')
       $scope.selectedUser = User.data;
 
       // Populate the school dropdown
-      populateSchools();
+      // populateSchools();
 
       /**
        * TODO: JANK WARNING
