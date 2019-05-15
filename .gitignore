@@ -4,6 +4,8 @@ node_modules/
 semantic/
 .idea/
 
+app/client/build/
+
 # macOS
 .DS_Store
 .python-version
