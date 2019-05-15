@@ -4,7 +4,6 @@ node_modules/
 semantic/
 .idea/
 
-# Output
 app/client/build/
 
 # macOS
