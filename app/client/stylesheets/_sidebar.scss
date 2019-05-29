@@ -9,6 +9,14 @@
 
   @include transition-duration($sidebar-transition-time);
 
+  .logo {
+    max-width: 150px;
+        img {
+          width: 150px;
+          height: 150px;
+        }
+  }
+
   .item {
     width: 100%;
     padding: 16px;
