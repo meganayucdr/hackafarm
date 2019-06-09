@@ -5,19 +5,19 @@ angular.module('reg')
         NAME: 'Hack a Farm 2019',
     })
     .constant('DASHBOARD', {
-        UNVERIFIED: 'You should have received an email asking you verify your email. Click the link in the email and you can start your application!',
-        INCOMPLETE_TITLE: 'You still need to complete your application!',
-        INCOMPLETE: 'If you do not complete your application before the [APP_DEADLINE], you will not be considered for the admissions lottery!',
-        SUBMITTED_TITLE: 'Your application has been submitted!',
-        SUBMITTED: 'Feel free to edit it at any time. However, once registration is closed, you will not be able to edit it any further.\nAdmissions will be determined by a random lottery. Please make sure your information is accurate before registration is closed!',
-        CLOSED_AND_INCOMPLETE_TITLE: 'Unfortunately, registration has closed, and the lottery process has begun.',
-        CLOSED_AND_INCOMPLETE: 'Because you have not completed your profile in time, you will not be eligible for the lottery process.',
-        ADMITTED_AND_CAN_CONFIRM_TITLE: 'You must confirm by [CONFIRM_DEADLINE].',
-        ADMITTED_AND_CANNOT_CONFIRM_TITLE: 'Your confirmation deadline of [CONFIRM_DEADLINE] has passed.',
-        ADMITTED_AND_CANNOT_CONFIRM: 'Although you were accepted, you did not complete your confirmation in time.\nUnfortunately, this means that you will not be able to attend the event, as we must begin to accept other applicants on the waitlist.\nWe hope to see you again next year!',
-        CONFIRMED_NOT_PAST_TITLE: 'You can edit your confirmation information until [CONFIRM_DEADLINE]',
-        DECLINED: 'We\'re sorry to hear that you won\'t be able to make it to Hack a Farm 2019! :(\nMaybe next year! We hope you see you again soon.',
+        UNVERIFIED: 'Cek kotak masuk email anda, anda seharusnya mendapatkan email dari panitia Hackafarm yang meminta anda untuk memverifiaksi email anda. Klik link pada email dan anda dapat memulai pendaftaran anda.',
+        INCOMPLETE_TITLE: 'Mohon lengkapi form aplikasi anda!',
+        INCOMPLETE: 'Jika anda tidak melengkapi aplikasi anda sebelum tanggal [APP_DEADLINE], anda tidak akan dapat melanjutkan ke tahap berikutnya!',
+        SUBMITTED_TITLE: 'Aplikasi anda telah berhasil didaftarkan!',
+        SUBMITTED: 'Aplikasi anda telah terdaftar, namun anda dapat mengubahnya kapan saja hingga waktu pendaftaran ditutup.\nAdmissions will be determined by a random lottery. Please make sure your information is accurate before registration is closed!',
+        CLOSED_AND_INCOMPLETE_TITLE: 'Sayang sekali, pendaftaran telah ditutup. Dan proses seleksi awal telah dilakukan.',
+        CLOSED_AND_INCOMPLETE: 'Maaf, karena anda tidak dapat melengkapi profil dan form pendaftaran tepat waktu, anda tidak dapat melanjutkan ke proses berikutnya.',
+        ADMITTED_AND_CAN_CONFIRM_TITLE: 'Mohon untuk melakukan konfirmasi sebelum tanggal [CONFIRM_DEADLINE].',
+        ADMITTED_AND_CANNOT_CONFIRM_TITLE: 'Waktu konfirmasi anda [CONFIRM_DEADLINE] telah berakhir.',
+        ADMITTED_AND_CANNOT_CONFIRM: 'Meskipun ide anda telah lolos, anda tidak melengkapi konfirmasi tepat waktu.\nSayang sekali, hal ini berarti anda tidak dapat menghadiri acara hackathon. \nKami berharap jika anda dapat mengikuti acara hackathon tahun depan!',
+        CONFIRMED_NOT_PAST_TITLE: 'Anda dapat mengubah informasi konfirmasi anda sampai tanggal [CONFIRM_DEADLINE]',
+        DECLINED: 'Sayang sekali jika anda tidak dapat menghadiri acara hackathon Hack a Farm 2019! :(\nKami berharap jika anda dapat ikut untuk tahun depan.',
     })
     .constant('TEAM',{
-        NO_TEAM_REG_CLOSED: 'Unfortunately, it\'s too late to enter the lottery with a team.\nHowever, you can still form teams on your own before or during the event!',
+        NO_TEAM_REG_CLOSED: 'Sayang sekali, anda terlambat untuk mengikuti proses undian tim. \nTetapi, anda masih dapat membuat tim sendiri sebelum dan saat event berlangsung!',
     });

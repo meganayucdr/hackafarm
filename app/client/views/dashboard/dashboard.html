@@ -21,7 +21,7 @@
         <div
           class="declined state"
           ng-if="dashState('admittedAndCannotConfirm')">
-          Expired Admission
+          Pendaftaran Telah Ditutup
         </div>
 
 
@@ -36,7 +36,7 @@
         <div ng-if="user.profile.name.length > 0">
           <p>
             <strong>
-              Welcome back, {{user.profile.name}}!
+              Selamat datang kembali, {{user.profile.name}}!
             </strong>
           </p>
           <p>
@@ -48,14 +48,14 @@
           class="description">
           <p>
             <strong>
-            Your email address ({{user.email}}) is not yet verified.
+            Alamat emailmu ({{user.email}}) belum terverifikasi.
             </strong>
           </p>
           <p>
             {{ DASHBOARD.UNVERIFIED }}
           </p>
           <div class="ui purple button" ng-click="resendEmail()">
-            Resend verification email
+            Kirim ulang email verifikasi
           </div>
         </div>
 
@@ -63,7 +63,7 @@
           ng-class="settings.timeClose"
           ng-if="!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined')">
           <strong>
-            Registration Deadline:
+            Pendaftaran ditutup:
           </strong>
           {{ timeClose }}
         </div>
@@ -72,7 +72,7 @@
           ng-class="settings.timeConfirm"
           ng-if="dashState('admittedAndCanConfirm') || dashState('admittedAndCannotConfirm') || dashState('confirmed') || dashState('declined')">
           <strong>
-            Confirmation Deadline:
+            konfirmasi:
           </strong>
           {{ timeConfirm }}
         </div>
@@ -91,7 +91,7 @@
 
           <div class="ui purple button"
                ui-sref="app.application">
-            Complete your application
+            Lengkapi aplikasimu
           </div>
 
         </div>
@@ -109,21 +109,21 @@
           </p>
           <div class="ui purple button"
                ui-sref="app.application">
-            Edit your application
+            Edit aplikasi
           </div>
 
           <div
             class="ui pink button"
             ng-show="!user.teamCode"
             ui-sref="app.team">
-            Create or join a team
+            Buat atau gabung ke tim
           </div>
 
           <div
             class="ui pink button"
             ng-show="user.teamCode"
             ui-sref="app.team">
-            View your Team
+            Lihat tim
           </div>
 
         </div>
@@ -151,14 +151,14 @@
 
           <div class="ui purple button"
                ui-sref="app.application">
-            View your application
+            Lihat aplikasi
           </div>
 
           <div
             class="ui pink button"
             ng-show="user.teamCode"
             ui-sref="app.team">
-            View your Team
+            Lihat tim
           </div>
         </div>
 
@@ -185,12 +185,12 @@
 
           <div class="ui purple button"
                ui-sref="app.confirmation">
-            Confirm your spot
+            konfirmasi tempat anda
           </div>
 
           <div class="ui red button"
                ng-click="declineAdmission()">
-            Sorry, I can't make it
+            Maaf, kami tidak bisa menerimanya
           </div>
 
         </div>
@@ -230,12 +230,12 @@
 
           <div class="ui purple button"
                ui-sref="app.confirmation">
-            {{pastConfirmation ? 'View' : 'Edit'}} your confirmation information
+            {{pastConfirmation ? 'Lihat' : 'Edit'}} informasi konfirmasi anda
           </div>
 
           <div class="ui red button"
                ng-click="declineAdmission()">
-            Sorry, I can't make it
+            Maaf, kami tidak bisa menerimanya
           </div>
 
         </div>
